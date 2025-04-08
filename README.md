@@ -32,7 +32,7 @@ This is the code behind for all Azure Resource templates that I have made availa
 11) `Invoke-Build Deploybicep` - Thiswill deploy the built Bicep files as a Bicep Module published to a specified Azure Registry (ACR) 
 12) You can run each of those Invoke-Build in 1 command buy adding `-task` and then what you want to run
 13) You can specify a specific resource to run the invoke-build on buy adding `-templatePath` and the directory of the resource.
-14) Example for the above 2: `invoke-build -task clean, buildbicep, testbicep, publishbicep -templatepath resources/resourcegroup`
+14) Example for the previous 2 items: `invoke-build -task clean, buildbicep, testbicep, publishbicep -templatepath resources/resourcegroup`
 
 # 3. Contribute
 
