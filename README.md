@@ -13,9 +13,8 @@ This is the code behind for all Azure Resource templates that I have made availa
 
 ## 1.1. Installation
 
-1. Follow the installation and setup instructions found in the [DevOpsDevContainer repository](https://dev.azure.com/americanautoshield/DevOps/_git/DevOpsDevContainer)
-2. Run `make clone-templaterepos` to automatically sync all the template repos
-3. In the terminal windows of VSCode, change your directory the bicepTemplates (`cd bicepTemplates`)
+1. Clone this repo
+2. In the terminal windows of VSCode, change your directory the bicepTemplates (`cd bicepTemplates`)
 
 # 2. Build and Test
 
